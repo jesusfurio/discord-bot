@@ -4,7 +4,6 @@ from discord.ext import commands
 from os import environ
 
 TOKEN = 'YOUR_TOKEN'
-GUILD = 'Que dicen los chavale!'
 
 startup_extensions = ["valorant","music", "rol","miscelaneous"]
 
