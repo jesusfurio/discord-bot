@@ -3,7 +3,7 @@ from discord.ext import commands
 
 from os import environ
 
-TOKEN = 'YOUR_TOKEN'
+TOKEN = 'NzIxNDE4NjU1NTk4MTE2ODc0.XuUQKA.5VvaOAvGrgSt6vaO3YfvJvCk2X8'
 
 startup_extensions = ["valorant","music", "rol","miscelaneous"]
 
