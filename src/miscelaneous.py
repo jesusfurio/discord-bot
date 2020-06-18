@@ -32,10 +32,10 @@ class Miscelaneus(commands.Cog):
     @commands.command(name='99', help='Responde con una frase aleatoria')
     async def nine_nine(self, ctx):
         brooklyn_99_quotes = [
-            'Si a los 30 no te has casado, ni a los 40 eres rico. Arre borrico.',
-            '¡Chúpamela!',
-            'no vea ompare ma dao en to la merla',
-            '¡Cabesha pollo!',
+            'message1',
+            'message2',
+            'message3',
+            'message4',
         ]
 
         response = random.choice(brooklyn_99_quotes)

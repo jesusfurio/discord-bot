@@ -45,11 +45,11 @@ class Valorant(commands.Cog):
             await self.client.process_commands(message)
 
         if "buenos dias" in message.content.lower():
-            await message.channel.send('¡Buenas pollas te comías!')
+            await message.channel.send('¡Buenas días!')
             await self.client.process_commands(message)
 
-        if "guapos" in message.content.lower():
-            await message.channel.send('¡Guapo tu!')
+        if "message" in message.content.lower():
+            await message.channel.send('response')
             await self.client.process_commands(message)
 
 def setup(client):
