@@ -49,11 +49,11 @@ class Miscelaneus(commands.Cog):
             await self.client.process_commands(message)
 
         if "buenos dias" in message.content.lower():
-            await message.channel.send('¡Buenas pollas te comías!')
+            await message.channel.send('¡Buenos días!')
             await self.client.process_commands(message)
 
-        if "guapos" in message.content.lower():
-            await message.channel.send('¡Guapo tu!')
+        if "message2" in message.content.lower():
+            await message.channel.send('¡response2!')
             await self.client.process_commands(message)
 
     @commands.command(pass_context=True)
@@ -79,10 +79,10 @@ class Miscelaneus(commands.Cog):
     @commands.command(name='99', help='Responde con una frase aleatoria')
     async def nine_nine(self, ctx):
         brooklyn_99_quotes = [
-            'Si a los 30 no te has casado, ni a los 40 eres rico. Arre borrico.',
-            '¡Chúpamela!',
-            'no vea ompare ma dao en to la merla',
-            '¡Cabesha pollo!',
+            'message',
+            'message',
+            'message',
+            'message',
         ]
 
         response = random.choice(brooklyn_99_quotes)
