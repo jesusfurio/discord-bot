@@ -1,11 +1,17 @@
 import discord
 from discord.ext import commands
+from cogs import miscelaneous, music, rol, valorant
 
 import os
 
 TOKEN = os.environ.get('TOKEN')
 
-startup_extensions = ["valorant","music", "rol","miscelaneous"]
+startup_extensions = [
+    "cogs.valorant",
+    "cogs.music", 
+    "cogs.rol",
+    "cogs.miscelaneous"
+    ]
 
 client = commands.Bot(command_prefix = '!')
 
