@@ -1,9 +1,9 @@
 import discord
 from discord.ext import commands
 
-from os import environ
+import os
 
-TOKEN = 'YOUR_TOKEN'
+TOKEN = os.environ.get('TOKEN')
 
 startup_extensions = ["valorant","music", "rol","miscelaneous"]
 
