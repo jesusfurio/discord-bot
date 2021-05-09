@@ -1,0 +1,25 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    app: discordbot
+  name: discordbot
+  namespace: discordbot
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: discordbot
+    spec:
+      imagePullSecrets:
+        - name: regcred
+      containers:
+        - name: discord-bot
+          image: discord-bot:latest
+          env:
+          - name: "TOKEN"
+            valueFrom:
+              secretKeyRef:
+                name: discordbot-secret
+                key: token
