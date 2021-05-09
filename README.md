@@ -62,6 +62,12 @@ kubectl apply -f secret.yaml
 kubectl apply -f deployment.yaml
 ```
 
+## Pipelines
+En la carpeta "pipelines" podeis encontrar un fichero Jenkinsfile para realizar los test de calidad, seguridad y estáticos con las siguientes librerías de Python:
+* [flake8]: https://flake8.pycqa.org/en/latest/ -
+* [radon]: https://pypi.org/project/radon/ -
+* [bandit]: https://pypi.org/project/bandit/ -
+
 ## Librerías usadas :books:
 Python:
 * [youtube-dl]: https://pypi.org/project/youtube_dl/ -
